@@ -16,7 +16,7 @@ createAdminAccount();
 
 
 const app=express();
-const PORT=process.env.PORT||5000;
+const PORT=4000||5000;
 
 app.use(express.json());
 app.use(bodyParser.json());
